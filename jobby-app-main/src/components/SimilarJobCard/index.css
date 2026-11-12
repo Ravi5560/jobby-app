@@ -1,0 +1,23 @@
+.similar-job-card {
+  background-color: #272727;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 300px;
+  list-style-type: none;
+}
+
+.similar-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.similar-title {
+  font-size: 18px;
+}
+
+.location-employment-container {
+  display: flex;
+  justify-content: space-between;
+}

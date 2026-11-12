@@ -1,0 +1,75 @@
+.jobs-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  padding: 30px;
+  color: #ffffff;
+}
+
+.filters-section {
+  width: 25%;
+  margin-right: 30px;
+}
+
+.jobs-section {
+  width: 75%;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  color: #ffffff;
+  padding: 10px;
+  outline: none;
+}
+
+.search-btn {
+  background-color: #272727;
+  border: none;
+  color: #ffffff;
+  width: 60px;
+  cursor: pointer;
+}
+
+.filter-heading {
+  font-size: 20px;
+}
+
+.filter-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.filter-list li {
+  margin-bottom: 15px;
+}
+
+.jobs-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.line {
+  border: 1px solid #64748b;
+}
+
+.no-jobs-container {
+  text-align: center;
+}
+
+.no-jobs-image {
+  width: 400px;
+}
